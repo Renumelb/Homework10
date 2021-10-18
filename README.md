@@ -13,4 +13,4 @@ Based on the results of the above models, not sure if these models are a good fi
 ## Part B- Regression_analysis:
 In this notebook, you will build a SKLearn linear regression model to predict Yen futures ("settle") returns with lagged Yen futures returns. 
 ## Conclusions
-The ideal RMSE should be as close to 0 implying little deviation from expected. It is interesting to note that the train  RMSE (in sample) is much higher- generally this is lower- than the test RMSE (out of sample) implying some kind of mismatch.
+The ideal RMSE should be as close to 0 implying little deviation from expected. The out of sample (test data) is lower than the in the sample (train data) which ideally should have been the other way around i.e. the RMSE of train data should have been lower. Additionally the RMSE values are significantly different. Suggest that the train data be revisited.
