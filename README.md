@@ -1,6 +1,6 @@
 The financial departments of large companies often deal with foreign currency transactions while doing international business. As a result, they are always looking for anything that can help them better understand the future direction and risk of various currencies.In this assignment, you will test the many time-series tools that you have learned in order to predict future movements in the value of the Japanese yen versus the U.S. dollar.
 
-# Part A Time_series_analysis
+## Part A Time_series_analysis
 In this notebook, you will load historical Dollar-Yen exchange rate futures data and apply time series analysis and modeling to determine whether there is any predictable behavior. Decompose the Yen Settle price using the Hodrick-Prescott Filter to understand Trend and Noise. Then calculate future Settle Returns, estimate an ARMA model for these Settle returns, an ARIMA model for Yen Settle prices and a GARCH model to understand Yen volatility to provide answers to the below questions.
 
 # Based on your time series analysis, would you buy the yen now?
